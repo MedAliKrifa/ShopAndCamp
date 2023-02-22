@@ -4,7 +4,7 @@ import ProductList from "./pages/ProductList";
 import Register from "./pages/Register";
 import Login from "./pages/Login";
 import Cart from "./pages/Cart";
-import Aboutus from "./pages/Aboutus";
+import Community from "./pages/Community";
 
 const App = () => {
   return <Cart/>;

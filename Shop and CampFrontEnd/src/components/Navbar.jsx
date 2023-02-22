@@ -39,6 +39,7 @@ const SearchContainer = styled.div`
 
 const Input = styled.input`
   border: none;
+  background-color: transparent;
   ${mobile({ width: "50px" })}
 `;
 
@@ -83,6 +84,7 @@ const Navbar = () => {
         <Right>
           <MenuItem>REGISTER</MenuItem>
           <MenuItem>SIGN IN</MenuItem>
+          <MenuItem>COMMUNITY</MenuItem>
           <MenuItem>
             <Badge badgeContent={4} color="primary">
               <ShoppingCartOutlined />
