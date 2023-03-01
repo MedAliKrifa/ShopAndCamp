@@ -7,7 +7,7 @@ import Cart from "./pages/Cart";
 import Community from "./pages/Community";
 
 const App = () => {
-  return <Cart/>;
+  return <Community />;
 };
 
 export default App;

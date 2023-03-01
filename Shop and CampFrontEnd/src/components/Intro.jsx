@@ -90,6 +90,8 @@ const Right = styled.div`
 `;
 
 const Image = styled.img`
+  padding-top: 30%;
+  padding-left: 5%;
     width: 100%;
 `
 
@@ -97,21 +99,19 @@ const Intro = () => {
   return (
     <Container>
       <Left>
-        <Title>Adventures in creative age</Title>
+        <Title>Adventures here we come</Title>
         <Desc>
-          We believe that designing products and services in close partnership
-          with our clients is the only way to have a real impact on their
-          business.
+Shop Our Camping Gear Collection Today
         </Desc>
         <Info>
-          <Button>START A PROJECT</Button>
+          <Button>SHOP NOW</Button>
           <Contact>
-            <Phone>Call Us (012) 345 - 6789</Phone>
+            <Phone>Call Us (00216) 345 6789</Phone>
             <ContactText>For any question or concern</ContactText>
           </Contact>
         </Info>
       </Left>
-      <Right><Image src="https://www.transparentpng.com/thumb/campsite/O9OuiI-campsite-camping-pack-png-picture.png"/></Right>
+      <Right><Image src="https://www.pngmart.com/files/15/Hiking-Camp-Tent-PNG-Image.png"/></Right>
       <AnimatedShapes/>
     </Container>
   );
